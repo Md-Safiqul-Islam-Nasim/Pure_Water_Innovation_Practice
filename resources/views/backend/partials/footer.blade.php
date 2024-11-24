@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer py-4 text-center">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 order-last order-md-first">
