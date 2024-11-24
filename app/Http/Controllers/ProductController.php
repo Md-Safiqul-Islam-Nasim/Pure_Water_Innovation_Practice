@@ -11,18 +11,18 @@ class ProductController extends Controller
 {
     public function index()
     {
-         $products = Product::all();
-         return view('backend.layout.products.index', compact('products'));;
+        $products = Product::all();
+        return view('backend.layouts.products.index', compact('products'));;
     }
 
     public function create()
     {
-        return view('backend.layout.products.create');
+        return view('backend.layouts.products.create');
     }
 
     public function store(Request $request)
     {
-        $request->validate([    
+        $request->validate([
             'name' => 'required|string|max:255',
             'price' => 'required|numeric',
             'stock' => 'required|integer',
@@ -35,7 +35,7 @@ class ProductController extends Controller
 
     public function edit(Product $product)
     {
-        return view('backend.layout.products.edit', compact('product'));
+        return view('backend.layouts.products.edit', compact('product'));
     }
 
     public function update(Request $request, Product $product)

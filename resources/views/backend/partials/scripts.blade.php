@@ -1,15 +1,15 @@
-<script src="{{ asset('backend/js/core/demo.js') }}"></script>
-<script src="{{ asset('backend/js/kaiadmin.min.js') }}"></script>
-<script src="{{ asset('backend/js/setting-demo.js') }}"></script>
-<script src="{{ asset('backend/js/setting-demo2.js') }}"></script>
+    <!-- <script src="{{ asset('backend/js/core/demo.js') }}"></script>
+    <script src="{{ asset('backend/js/kaiadmin.min.js') }}"></script>
+    <script src="{{ asset('backend/js/setting-demo.js') }}"></script>
+    <script src="{{ asset('backend/js/setting-demo2.js') }}"></script>
 
-{{-- toastr start --}}
-<script>
-    $(document).ready(function() {
-        toastr.options.timeOut = 10000;
-        toastr.options.positionClass = 'toast-top-right';
+    {{-- toastr start --}}
+    <script>
+        $(document).ready(function() {
+            toastr.options.timeOut = 10000;
+            toastr.options.positionClass = 'toast-top-right';
 
-        @if (Session::has('t-success'))
+            @if(Session::has('t-success'))
             toastr.options = {
                 'closeButton': true,
                 'debug': false,
@@ -27,9 +27,9 @@
                 'hideMethod': 'fadeOut',
             };
             toastr.success("{{ session('t-success') }}");
-        @endif
+            @endif
 
-        @if (Session::has('t-error'))
+            @if(Session::has('t-error'))
             toastr.options = {
                 'closeButton': true,
                 'debug': false,
@@ -47,9 +47,9 @@
                 'hideMethod': 'fadeOut',
             };
             toastr.error("{{ session('t-error') }}");
-        @endif
+            @endif
 
-        @if (Session::has('t-info'))
+            @if(Session::has('t-info'))
             toastr.options = {
                 'closeButton': true,
                 'debug': false,
@@ -67,9 +67,9 @@
                 'hideMethod': 'fadeOut',
             };
             toastr.info("{{ session('t-info') }}");
-        @endif
+            @endif
 
-        @if (Session::has('t-warning'))
+            @if(Session::has('t-warning'))
             toastr.options = {
                 'closeButton': true,
                 'debug': false,
@@ -87,17 +87,17 @@
                 'hideMethod': 'fadeOut',
             };
             toastr.warning("{{ session('t-warning') }}");
-        @endif
-    });
-</script>
-{{-- toastr end --}}
+            @endif
+        });
+    </script>
+    {{-- toastr end --}}
 
-{{-- dropify start --}}
-<script>
-    $(document).ready(function() {
-        $('.dropify').dropify();
-    });
-</script>
-{{-- dropify end --}}
+    {{-- dropify start --}}
+    <script>
+        $(document).ready(function() {
+            $('.dropify').dropify();
+        });
+    </script>
+    {{-- dropify end --}}
 
-@stack('script')
+    @stack('script') -->
