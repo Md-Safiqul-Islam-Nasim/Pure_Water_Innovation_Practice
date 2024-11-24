@@ -1,0 +1,90 @@
+/* resources/css/custom.css */
+
+/* Form container styling */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Table styling */
+.table-auto {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-auto th, .table-auto td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table Header */
+.table-auto th {
+    background-color: #f8fafc;
+    color: #4b5563;
+    font-weight: 600;
+}
+
+/* Add hover effect to table rows */
+.table-auto tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Buttons */
+.btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Focus effect for inputs */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Margin adjustments */
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+/* Form header */
+h2 {
+    color: #4b5563;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

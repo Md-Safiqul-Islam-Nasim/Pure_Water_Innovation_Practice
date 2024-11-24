@@ -685,7 +685,7 @@
                           </div>
                           <div class="u-text">
                             <h4>Hizrian</h4>
-                            <p class="text-muted">hello@example.com</p>
+                            <p class="text-muted">{{ Auth::user()->email }}</p>
                             <a
                               href="profile.html"
                               class="btn btn-xs btn-secondary btn-sm"
@@ -726,7 +726,8 @@
                 <h6 class="op-7 mb-2">Free Bootstrap 5 Admin Dashboard</h6>
               </div>
               <div class="ms-md-auto py-2 py-md-0">
-                <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
+              <a href="{{ route('products.index') }}" class="btn btn-primary btn-round">Product</a>
+              <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
                 <a href="#" class="btn btn-primary btn-round">Add Customer</a>
               </div>
             </div>

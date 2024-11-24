@@ -1,12 +1,10 @@
-
-
-          <div class="sidebar" data-background-color="dark">
+<div class="sidebar" data-background-color="dark">
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
             <a href="index.html" class="logo">
               <img
-                src="assets/img/kaiadmin/logo_light.svg"
+                src="backend/assets/img/kaiadmin/logo_light.svg"
                 alt="navbar brand"
                 class="navbar-brand"
                 height="20"
@@ -65,47 +63,47 @@
                 <div class="collapse" id="base">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="components/avatars.html">
+                      <a href="backend/components/avatars.html">
                         <span class="sub-item">Avatars</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/buttons.html">
+                      <a href="backend/components/buttons.html">
                         <span class="sub-item">Buttons</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/gridsystem.html">
+                      <a href="backend/components/gridsystem.html">
                         <span class="sub-item">Grid System</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/panels.html">
+                      <a href="backend/components/panels.html">
                         <span class="sub-item">Panels</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/notifications.html">
+                      <a href="backend/components/notifications.html">
                         <span class="sub-item">Notifications</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/sweetalert.html">
+                      <a href="backend/components/sweetalert.html">
                         <span class="sub-item">Sweet Alert</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/font-awesome-icons.html">
+                      <a href="backend/components/font-awesome-icons.html">
                         <span class="sub-item">Font Awesome Icons</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/simple-line-icons.html">
+                      <a href="backend/components/simple-line-icons.html">
                         <span class="sub-item">Simple Line Icons</span>
                       </a>
                     </li>
                     <li>
-                      <a href="components/typography.html">
+                      <a href="backend/components/typography.html">
                         <span class="sub-item">Typography</span>
                       </a>
                     </li>
@@ -121,7 +119,7 @@
                 <div class="collapse" id="sidebarLayouts">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="sidebar-style-2.html">
+                      <a href="backend/sidebar-style-2.html">
                         <span class="sub-item">Sidebar Style 2</span>
                       </a>
                     </li>
@@ -142,7 +140,7 @@
                 <div class="collapse" id="forms">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="forms/forms.html">
+                      <a href="backend/forms/forms.html">
                         <span class="sub-item">Basic Form</span>
                       </a>
                     </li>
@@ -158,12 +156,12 @@
                 <div class="collapse" id="tables">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="tables/tables.html">
+                      <a href="backend/tables/tables.html">
                         <span class="sub-item">Basic Table</span>
                       </a>
                     </li>
                     <li>
-                      <a href="tables/datatables.html">
+                      <a href="backend/tables/datatables.html">
                         <span class="sub-item">Datatables</span>
                       </a>
                     </li>
@@ -179,12 +177,12 @@
                 <div class="collapse" id="maps">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="maps/googlemaps.html">
+                      <a href="backend/maps/googlemaps.html">
                         <span class="sub-item">Google Maps</span>
                       </a>
                     </li>
                     <li>
-                      <a href="maps/jsvectormap.html">
+                      <a href="backend/maps/jsvectormap.html">
                         <span class="sub-item">Jsvectormap</span>
                       </a>
                     </li>
@@ -200,12 +198,12 @@
                 <div class="collapse" id="charts">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="charts/charts.html">
+                      <a href="backend/charts/charts.html">
                         <span class="sub-item">Chart Js</span>
                       </a>
                     </li>
                     <li>
-                      <a href="charts/sparkline.html">
+                      <a href="backend/charts/sparkline.html">
                         <span class="sub-item">Sparkline</span>
                       </a>
                     </li>
