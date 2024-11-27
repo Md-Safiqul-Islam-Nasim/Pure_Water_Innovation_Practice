@@ -1,5 +1,5 @@
 @extends('backend.app')
-<!-- @section('title', 'Dashboard') -->
+@section('title', 'Dashboard')
 
 @section('content')
 <div class="container mx-auto px-2 sm:px-4 lg:px-4 " style="margin-top: 100px">

@@ -1,0 +1,749 @@
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Bold.eot");
+  src: url("../fonts/GalanoGrotesque-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Bold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Bold.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Heavy.eot");
+  src: url("../fonts/GalanoGrotesque-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Heavy.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Heavy.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Black.eot");
+  src: url("../fonts/GalanoGrotesque-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Black.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Black.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-ExtraBold.eot");
+  src: url("../fonts/GalanoGrotesque-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-ExtraBold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-ExtraBold.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-ExtraBold.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-ExtraBold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-ExtraBold.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-ExtraLight.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-ExtraLight.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-ExtraLight.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Black.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Black.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Black.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Italic.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Italic.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Italic.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Heavy.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Heavy.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Heavy.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Light.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Light.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Light.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Medium.eot");
+  src: url("../fonts/GalanoGrotesque-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Medium.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Medium.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Medium.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Medium.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Medium.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Bold.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Bold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Bold.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-SemiBold.eot");
+  src: url("../fonts/GalanoGrotesque-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-SemiBold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-SemiBold.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Light.eot");
+  src: url("../fonts/GalanoGrotesque-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Light.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Light.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Regular.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-SemiBold.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-ExtraLight.eot");
+  src: url("../fonts/GalanoGrotesque-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-ExtraLight.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-ExtraLight.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Regular.eot");
+  src: url("../fonts/GalanoGrotesque-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Regular.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Regular.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url("../fonts/GalanoGrotesque-Thin.eot");
+  src: url("../fonts/GalanoGrotesque-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesque-Thin.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesque-Thin.woff") format("woff"),
+    url("../fonts/GalanoGrotesque-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Galano Grotesque Alt";
+  src: url("../fonts/GalanoGrotesqueAlt-Thin.eot");
+  src: url("../fonts/GalanoGrotesqueAlt-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GalanoGrotesqueAlt-Thin.woff2") format("woff2"),
+    url("../fonts/GalanoGrotesqueAlt-Thin.woff") format("woff"),
+    url("../fonts/GalanoGrotesqueAlt-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font 2 */
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.eot");
+  src: url("../fonts/Helvetica.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Helvetica.woff2") format("woff2"),
+    url("../fonts/Helvetica.woff") format("woff"),
+    url("../fonts/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica-Bold.eot");
+  src: url("../fonts/Helvetica-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Helvetica-Bold.woff2") format("woff2"),
+    url("../fonts/Helvetica-Bold.woff") format("woff"),
+    url("../fonts/Helvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/HelveticaRounded-Bold.eot");
+  src: url("../fonts/HelveticaRounded-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaRounded-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaRounded-Bold.woff") format("woff"),
+    url("../fonts/HelveticaRounded-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica-Light.eot");
+  src: url("../fonts/Helvetica-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Helvetica-Light.woff2") format("woff2"),
+    url("../fonts/Helvetica-Light.woff") format("woff"),
+    url("../fonts/Helvetica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Creattion */
+@font-face {
+  font-family: 'Creattion';
+  src: url('../fonts/CreattionDemo.eot');
+  src: url('../fonts/CreattionDemo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CreattionDemo.woff2') format('woff2'),
+    url('../fonts/CreattionDemo.woff') format('woff'),
+    url('../fonts/CreattionDemo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:root {
+  --primary--water: #29bbee;
+  --Primary-waterTwo: #29BBEE;
+  --primary--green: #02cc78;
+  --white: #ffffff;
+  --black: #161c24;
+  --gray-1: #637381;
+  --gray-2: #454f5b;
+  --base-transition: all 0.4s ease-in-out;
+  --test-border: 1px solid red;
+  /*  font size */
+  --text--xxlg: 72px;
+  --text--xlg: 64px;
+  --text--lg: 50px;
+  --text--md: 24px;
+  --text--md--lg: 32px;
+  --text--reg: 18px;
+  --text--reg--lg: 20px;
+  --text--sm: 16px;
+  --text--xsm: 14px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: var(--text--reg);
+  font-family: "Galano Grotesque";
+  background-color: var(--white);
+}
+
+main {
+  overflow: hidden;
+}
+
+/* default scroll bar */
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary--water);
+  height: 4px;
+  border-radius: 10px;
+}
+
+/* header css starts here  */
+.header-for-mobile {
+  display: none;
+}
+
+.common-top-header {
+  width: 100%;
+  position: fixed;
+  top: 30px;
+  right: 210px;
+  max-width: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 82px;
+  padding: 14px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 57px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(79px);
+  backdrop-filter: blur(79px);
+  gap: 100px;
+  z-index: 1000;
+}
+
+.auth-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 188px;
+  min-height: 54px;
+  padding: 8px 33px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--white, #fff);
+  font-family: Helvetica;
+  font-size: var(--text--reg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: var(--primary--water);
+  -webkit-transition: var(--base-transition);
+  -o-transition: var(--base-transition);
+  transition: var(--base-transition);
+  border-radius: 85px;
+  cursor: pointer;
+}
+
+.auth-btn:hover {
+  background-color: var(--primary--green);
+}
+
+.bi-header-routes {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 36px;
+}
+
+.bi-route {
+  color: var(--gray-1, #637381);
+  font-family: Helvetica;
+  font-size: var(--text--reg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  -webkit-transition: var(--base-transition);
+  -o-transition: var(--base-transition);
+  transition: var(--base-transition);
+}
+
+.bi-route.active,
+.bi-route:hover {
+  color: var(--primary--water);
+}
+
+.mobile-header {
+  display: none;
+}
+
+.mobile-header-routes {
+  display: none;
+}
+
+/* header css ends here  */
+/* footer css starts here  */
+footer {
+  width: 100%;
+  min-height: 617px;
+  position: relative;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 50;
+}
+
+footer::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: -50px;
+  height: 300px;
+  left: 0;
+  background-image: url('../images/shade-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.footer-contents-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  position: relative;
+  z-index: 80;
+  height: 100%;
+  -webkit-column-gap: 100px;
+  -moz-column-gap: 100px;
+  column-gap: 100px;
+}
+
+.footer-left-side {
+  width: 50%;
+  max-width: 436px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.footer-right-side {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  width: 50%;
+}
+
+.footer-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 32px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.footer-info-box-heading {
+  color: var(--black, #161C24);
+  font-family: Helvetica;
+  font-size: var(--text--reg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.footer-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #454F5B;
+  font-family: Helvetica;
+  font-size: var(--text--reg);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+}
+
+.footer-video {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.footer-social-icons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icon {
+  width: 45px;
+  min-width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid var(--black);
+  border-radius: 50%;
+  -webkit-transition: var(--base-transition);
+  -o-transition: var(--base-transition);
+  transition: var(--base-transition);
+  cursor: pointer;
+}
+
+.footer-icon:hover {
+  background-color: var(--primary--water);
+  border: transparent;
+}
+
+.footer-icon svg path {
+  -webkit-transition: var(--base-transition);
+  -o-transition: var(--base-transition);
+  transition: var(--base-transition);
+}
+
+.footer-icon:hover svg path {
+  fill: white;
+}
+
+.copy-right-text {
+  color: var(--gray-1, #637381);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: var(--text--reg);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+}
+
+/* footer css ends here */
