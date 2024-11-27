@@ -1,0 +1,466 @@
+:root {
+    --primary--water: #29bbee;
+    --primary--green: #02cc78;
+    --white: #ffffff;
+    --black: #161c24;
+    --gray-1: #637381;
+    --gray-2: #454f5b;
+    --base-transition: all 0.4s ease-in-out;
+    --test-border: 1px solid red;
+    /*  font size */
+    --text--xxlg: 72px;
+    --text--xlg: 64px;
+    --text--lg: 50px;
+    --text--md: 24px;
+    --text--md--lg: 32px;
+    --text--reg: 18px;
+    --text--reg--lg: 20px;
+    --text--sm: 16px;
+    --text--xsm: 14px;
+}
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+.contractUs--subHeading {
+    color: var(--black);
+    font-family: 'Galano Grotesque';
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bi-banner-headings.aboutPage {
+    padding: 215px 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.submit--btn--contract {
+    padding: 20px 112px;
+    background: var(--black);
+    border-radius: 68px;
+    color: #FFF;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+/* =============================================== Contract Us Css Start Hare ================================== */
+.nr--contractUs--wrapper {
+    padding: 90px 0;
+    position: relative;
+}
+
+.nr--contractUs--wrapper::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #DFE3E8;
+    width: 60%;
+    height: 2px;
+}
+
+.nr--aboutUs--frame {
+    height: 450px;
+    width: 365px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nr--cintract--us--frame {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    Width: 580px;
+    Height: 1075px;
+}
+
+.nr--contractUs--inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 105px;
+       -moz-column-gap: 105px;
+            column-gap: 105px;
+}
+
+.contract--us--text {
+    color: #DFE3E8;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 100%;
+}
+
+.nr--contractUs--left--header {
+    width: 750px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 8px;
+}
+
+.nr--contractUs--left--form {
+    margin-top: 64px;
+}
+
+.nr--forms--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 32px;
+}
+
+.nr--names--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
+}
+
+.nr--names--first {
+    width: 427px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 12px;
+}
+
+.lebel--names--style {
+    color: var(--black);
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.inputBoxfirst {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-1);
+    background: #FCFCFC;
+    color: var(--Blue-Grey-500, #919EAB);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.nr--address--first {
+    width: 878px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.inputBoxFull {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-1);
+    background: #FCFCFC;
+    color: #919EAB;
+    font-family: 'Helvetica';
+    font-size: var(--text--reg);
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.nr--intrestCheckbox--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 12px;
+}
+
+.nr--input--intrestCheckbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 72px;
+       -moz-column-gap: 72px;
+            column-gap: 72px;
+}
+
+.nr--input--firstCheckboxs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 16px;
+       -moz-column-gap: 16px;
+            column-gap: 16px;
+}
+
+.checkBoxInput {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.checkboxStyle {
+    color: var(--gray-1);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.noteAreaText {
+    padding: 12px 20px;
+    height: 133px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-1);
+    background: #FCFCFC;
+    resize: none;
+    color: #C4CDD5;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.image--Uploader--wrapper {
+    margin-top: 16px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(212px, 1fr));
+    gap: 24px;
+}
+
+.nr-image-box {
+    height: 161px;
+    border-radius: 8px;
+    border: 1px dashed #637381;
+    background: #F9FAFB;
+    position: relative;
+    padding: 12px 16px;
+}
+
+.remove_img_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 6px;
+    border-radius: 12px;
+    background: #DFE1E6;
+    position: absolute;
+    border: none;
+    outline: none;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+
+}
+
+.nr-image-box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.nr-image-box.image_upload_lable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+
+    text-align: center;
+    color: var(--gray-1, #C4CDD5);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.nr-image-box.image_upload_lable.dragover {
+    position: relative;
+    padding: 20px;
+    -webkit-transition: var(--base-transition);
+    -o-transition: var(--base-transition);
+    transition: var(--base-transition);
+}
+
+.nr-image-box.image_upload_lable.dragover::after {
+    content: 'Drop Here';
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: var(--text--reg);
+    font-weight: 400;
+    color: var(--white);
+    border-radius: 8px;
+}
+
+
+.nr--imageUploder--submitBtn {
+    margin-top: 15px;
+}
+
+
+.nr--contractUs--right--address--wrapper {
+    margin-top: 22px;
+}
+
+.contractUssub {
+    color: var(--gray-2);
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nr--contract--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 16px;
+       -moz-column-gap: 16px;
+            column-gap: 16px;
+    padding-top: 16px;
+    padding-left: 23px;
+}
+
+.nr--contract--svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nr--contract--svg svg {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.nr--contract--wrapper--two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 16px;
+       -moz-column-gap: 16px;
+            column-gap: 16px;
+    padding-left: 23px;
+    padding-top: 10px;
+}
+
+.nice-select.customNiceSelect {
+    padding: 28px 20px;
+    border-radius: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:  #919EAB;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    border: 0.5px solid var(--gray-1);
+}
+.nice-select .list{
+    max-height: 200px;
+    overflow-y: auto;
+}
+.nice-select::after {
+    
+    width: 10px;
+    height: 10px;
+    margin-top: -7px;
+    right: 25px;
+    
+}
+
+/* =============================================== Contract Us Css End Hare ================================== */
