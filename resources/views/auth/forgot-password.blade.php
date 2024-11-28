@@ -1,33 +1,50 @@
-<x-guest-layout>
-    <div class="min-h-screen bg-gradient-to-b from-blue-400 to-cyan-400 flex items-center justify-center">
-        <div class="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
-            <div class="text-center mb-6">
-                <h1 class="text-3xl font-semibold text-blue-800">Forgot Password?</h1>
-                <p class="text-gray-600">No problem. Just let us know your email address and we will send a password reset link.</p>
+@extends('frontend.app')
+
+@section('title', 'Forgot Password')
+@section('content')
+<main>
+    <section class="sign--in--wrapper">
+        <div class="sign--in--inner">
+            <div class="sign--in--left">
+                <div class="sign--in--image">
+                    <img src="frontend/images/signInPhoto.png" alt="not found">
+                </div>
             </div>
 
-            <form method="POST" action="{{ route('password.email') }}">
-                @csrf
+            <div class="nr--signIn--right">
 
-                <!-- Email Address -->
-                <div class="mb-4">
-                    <x-input-label for="email" :value="__('Email')" />
-                    <x-text-input id="email" class="block w-full mt-1" type="email" name="email" :value="old('email')" required autofocus />
-                    <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                <div class="nr--signIn--inputBox">
+                    <div class="nr--signIn--inputBox--heading">
+                        <h2 class="signIn--signUp--header">Forget Password?</h2>
+                        <p class="signIn--signUp--pera">Enter your credentials to reset your password</p>
+                    </div>
+
+                    <div class="nr--or"><span class="nr--LogIn--with--commonText">Or</span></div>
+
+                    <form action="{{ route('password.email') }}" method="POST">
+                        @csrf
+                        <div class="nr--email--and--password--wrapper">
+                            <div class="nr--email--input--main">
+                                <label for="Forgetemail"><span class="input--lebel--text">Email</span></label>
+                                <div class="nr--email--input">
+                                    <input type="email" id="Forgetemail" name="email" placeholder="Enter Your Email" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nr--reset--password--btn">
+                            <button type="submit" class="btn btn-danger">Reset Password</button>
+                        </div>
+                    </form>
+
+
+                    <div class="nr--dont--account">
+                        <a class="nr--dont--account--text" href="{{route('login')}}">Don’t have an account! <span>Sign Up</span></a>
+                    </div>
                 </div>
 
-                <!-- Submit Button -->
-                <div class="flex items-center justify-center mt-6">
-                    <x-primary-button>
-                        {{ __('Email Password Reset Link') }}
-                    </x-primary-button>
-                </div>
-            </form>
-
-            <!-- Back Link -->
-            <div class="text-center mt-4">
-                <a href="{{ route('login') }}" class="text-sm text-blue-500 hover:underline">Back to Login</a>
             </div>
         </div>
-    </div>
-</x-guest-layout>
+    </section>
+</main>
+@endsection

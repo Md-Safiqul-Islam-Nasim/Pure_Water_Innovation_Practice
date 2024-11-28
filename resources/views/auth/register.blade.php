@@ -169,9 +169,11 @@
                                 <input class="checkbox" type="checkbox" id="privecy" name="privecy" value="privecy">
                                 <label for="privecy"> <span class="nr--LogIn--with--commonText">I have agree to the terms & policy</span> </label>
                             </div>
-                            <div class="signIn--btn">
+
+                            <div class="signIn--btn">   
                                 <button type="submit" class="loginSubmit--btn">Sign Up</button>
                             </div>
+
                             </orm>
 
                             <div class="nr--dont--account">

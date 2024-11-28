@@ -15,14 +15,27 @@ class RoleSelectionController extends Controller
     {
         $user = Auth::user();
 
-        // Check if user already has a role
+        // If the user already has a role, redirect to their dashboard
         if ($user->role) {
-            // Redirect to the appropriate dashboard based on role
             return $this->redirectBasedOnRole($user);
         }
+        // If no role, show role selection page
+        return view('auth.select-role');
+    }
 
-        // Show role selection view if no role is set
-        //return view('frontend.layouts.dashboard.dashboard');
+    public function store(LoginRequest $request): RedirectResponse
+    {
+        $request->authenticate();
+
+        $request->session()->regenerate();
+
+        $user = Auth::user();
+
+        if ($user->role === 'admin') {
+            return redirect()->route('dashboard');
+        }
+
+        return redirect()->route('user-dashboard');
     }
 
     /**
@@ -52,7 +65,5 @@ class RoleSelectionController extends Controller
         } elseif ($user->role === 'user') {
             return redirect('/user-dashboard');
         }
-
-        
     }
 }

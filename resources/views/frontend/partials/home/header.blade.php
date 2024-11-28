@@ -22,8 +22,7 @@
             <a href="partner-details.html">
                 <div class="nav--bar--item">
                     <div class="nav--bar--svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" viewBox="0 0 32 31"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" viewBox="0 0 32 31" fill="none">
                             <g clip-path="url(#clip0_22010_8128)">
                                 <path
                                     d="M30.7132 15.18C30.7132 17.0217 28.4736 18.4048 27.8096 20.0062C27.1211 21.6663 27.7008 24.2217 26.4497 25.4729C25.1987 26.724 22.6432 26.1443 20.9831 26.8327C19.3816 27.4967 17.9985 29.7363 16.1569 29.7363C14.3152 29.7363 12.9322 27.4967 11.3307 26.8327C9.67061 26.1443 7.11519 26.7239 5.86404 25.4729C4.61289 24.2218 5.19264 21.6663 4.50421 20.0062C3.8402 18.4048 1.60059 17.0217 1.60059 15.18C1.60059 13.3384 3.8402 11.9553 4.50421 10.3539C5.19264 8.69376 4.61298 6.13833 5.86404 4.88719C7.1151 3.63604 9.67061 4.21579 11.3307 3.52736C12.9322 2.86334 14.3152 0.623734 16.1569 0.623734C17.9985 0.623734 19.3816 2.86334 20.9831 3.52736C22.6432 4.21579 25.1986 3.63612 26.4497 4.88719C27.7009 6.13825 27.1211 8.69376 27.8096 10.3539C28.4736 11.9553 30.7132 13.3384 30.7132 15.18Z"
@@ -47,8 +46,8 @@
                                     <stop offset="0.002" stop-color="#EAECEF" />
                                     <stop offset="1" stop-color="#CAD0D7" />
                                 </linearGradient>
-                                <linearGradient id="paint1_linear_22010_8128" x1="35.8751" y1="-6.22648"
-                                    x2="9.52555" y2="22.3772" gradientUnits="userSpaceOnUse">
+                                <linearGradient id="paint1_linear_22010_8128" x1="35.8751" y1="-6.22648" x2="9.52555"
+                                    y2="22.3772" gradientUnits="userSpaceOnUse">
                                     <stop offset="0.002" stop-color="#EAECEF" />
                                     <stop offset="1" stop-color="#CAD0D7" />
                                 </linearGradient>
@@ -58,8 +57,8 @@
                                     <stop stop-color="#E4E8EB" />
                                     <stop offset="1" stop-color="#A9B0BB" />
                                 </radialGradient>
-                                <linearGradient id="paint3_linear_22010_8128" x1="26.8542" y1="-4.73986"
-                                    x2="11.0442" y2="24.0628" gradientUnits="userSpaceOnUse">
+                                <linearGradient id="paint3_linear_22010_8128" x1="26.8542" y1="-4.73986" x2="11.0442"
+                                    y2="24.0628" gradientUnits="userSpaceOnUse">
                                     <stop stop-color="#A9B0BB" />
                                     <stop offset="1" stop-color="#636C77" />
                                 </linearGradient>
@@ -75,8 +74,7 @@
             <a href="shop.html">
                 <div class="nav--bar--item">
                     <div class="nav--bar--svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M15.6516 12.0651H19.1114C19.636 12.0651 20.0482 11.6314 20.0482 11.1084C20.0482 10.5726 19.636 10.1517 19.1114 10.1517H15.6516C15.127 10.1517 14.7148 10.5726 14.7148 11.1084C14.7148 11.6314 15.127 12.0651 15.6516 12.0651ZM23.2207 5.43309C23.9826 5.43309 24.4822 5.70098 24.9818 6.28777C25.4815 6.87456 25.5689 7.71648 25.4565 8.48059L24.2699 16.8488C24.0451 18.4573 22.6961 19.6424 21.1099 19.6424H7.48299C5.82178 19.6424 4.44785 18.3425 4.31046 16.6587L3.16135 2.75298L1.27532 2.42132C0.775713 2.33202 0.425985 1.83452 0.513417 1.32427C0.600849 0.802534 1.08797 0.456836 1.60007 0.53465L4.579 0.992604C5.00367 1.07042 5.31592 1.42632 5.35339 1.86004L5.59071 4.71746C5.62818 5.12694 5.95293 5.43309 6.35262 5.43309H23.2207ZM7.28289 21.6586C6.23371 21.6586 5.38437 22.526 5.38437 23.5975C5.38437 24.6563 6.23371 25.5237 7.28289 25.5237C8.31958 25.5237 9.16892 24.6563 9.16892 23.5975C9.16892 22.526 8.31958 21.6586 7.28289 21.6586ZM21.3344 21.6586C20.2853 21.6586 19.4359 22.526 19.4359 23.5975C19.4359 24.6563 20.2853 25.5237 21.3344 25.5237C22.3711 25.5237 23.2205 24.6563 23.2205 23.5975C23.2205 22.526 22.3711 21.6586 21.3344 21.6586Z"
                                 fill="#637381" />
@@ -87,8 +85,7 @@
             <a href="profilepage.html">
                 <div class="nav--bar--item">
                     <div class="nav--bar--svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 20 26"
-                            fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 20 26" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M16.6175 7.13754C16.6175 10.8088 13.6739 13.7526 10 13.7526C6.32737 13.7526 3.38252 10.8088 3.38252 7.13754C3.38252 3.46626 6.32737 0.523727 10 0.523727C13.6739 0.523727 16.6175 3.46626 16.6175 7.13754ZM10 25.5237C4.57797 25.5237 0 24.6425 0 21.2424C0 17.8412 4.60673 16.9911 10 16.9911C15.4233 16.9911 20 17.8724 20 21.2724C20 24.6737 15.3933 25.5237 10 25.5237Z"
                                 fill="#637381" />
@@ -101,26 +98,29 @@
         <div class="header-for-mobile">
             <div class="bi-header-toggle-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path fill="#0b57da"
+                    <path fill="#0b5d7da"
                         d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
                 </svg>
             </div>
         </div>
-        <form action="{{ route('logout') }}" method="POST" class="logout-form">
+        <form id="logout-form" method="POST" action="{{ route('logout') }}">
             @csrf
-            <button type="submit" class="logout-btn">
-                <i class="fas fa-sign-out-alt"></i> Logout
-            </button>
         </form>
+
+        <button type="submit" class="btn btn-danger" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+            Logout
+        </button>
+
+
     </div>
 </header>
 @else
 <!-- User is not logged in -->
 <header class="common-top-header">
     <div class="bi-header-routes">
-        <a class="bi-route active" href="index.html">Home</a>
-        <a class="bi-route" href="about.html">About</a>
-        <a class="bi-route" href="contact.html">Contact us</a>
+        <a class="bi-route active" href="">Home</a>
+        <a class="bi-route" href="">About</a>
+        <a class="bi-route" href="">Contact us</a>
     </div>
     <a href="{{route('login')}}" class="auth-btn"> Log In </a>
     <div class="header-for-mobile">
