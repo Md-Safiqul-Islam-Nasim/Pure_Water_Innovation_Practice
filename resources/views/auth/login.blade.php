@@ -102,7 +102,7 @@
                             <div class="nr--email--input--main">
                                 <label for="password">
                                     <span class="input--lebel--text">Password</span>
-                                    <a class="forgetPass" href="forgetPassword.html">Forget Password?</a>
+                                    <a class="forgetPass" href="{{route('password.email')}}">Forget Password?</a>
                                 </label>
 
                                 <div class="nr--email--input">

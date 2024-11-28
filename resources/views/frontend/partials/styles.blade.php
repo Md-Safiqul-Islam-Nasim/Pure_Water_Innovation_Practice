@@ -21,3 +21,6 @@
 <script src="frontend/js/jquery-3.7.1.min.js"></script>
 <script src="frontend/js/plugins.js"></script>
 <script src="frontend/js/main.js"></script>
+<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
+<script src="{{ asset('frontend/js/main.js') }}"></script>
+<link href="{{ asset('css/frontend/css/plugins/bootstrap.min.css') }}" rel="stylesheet">
